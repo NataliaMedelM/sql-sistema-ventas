@@ -2,22 +2,32 @@
 -- REPORTE SQL - CHALLENGER SISTEMA VENTAS
 -- =====================================
 
--- 1. Mostrar todos los clientes registrados
+--1-Mostrar todos los clientes registrados
 
+select * from clientes;
 
--- 2. Mostrar todos los productos disponibles
+--2-Mostrar todos los productos disponibles
 
+select * from productos;
 
--- 3. Mostrar todas las ventas realizadas
+--3-mostra todas las ventas realizadas
 
+select * from ventas;
 
--- 4. Mostrar solo nombre y email de clientes
+--4-mostrar solo nombre y email de cliente
 
+select nombre, email 
+from clientes;
 
--- 5. Mostrar solo nombre y precio de productos
+--5-mostra solo nombre y precio del producto
 
+select nombre, precio 
+from productos;
 
--- 6. Productos con precio mayor a 50000
+--6-productos con precio mayor a 50000
+
+select * from productos
+where precio >50000;
 
 
 -- 7. Ventas realizadas el 2026-04-02
