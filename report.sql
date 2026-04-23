@@ -2,6 +2,7 @@
 -- REPORTE SQL - CHALLENGER SISTEMA VENTAS
 -- =====================================
 
+-- Querys desde la 1 hasta la 6 hechas por Sabrina Jeria
 --1-Mostrar todos los clientes registrados
 
 select * from clientes;
@@ -29,7 +30,7 @@ from productos;
 select * from productos
 where precio >50000;
 
-
+-- Querys desde la 7 hasta la 11 hechas por
 -- 7. Ventas realizadas el 2026-04-02
 
 SELECT * 
