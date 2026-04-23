@@ -32,18 +32,32 @@ where precio >50000;
 
 -- 7. Ventas realizadas el 2026-04-02
 
+SELECT * 
+FROM productos 
+WHERE fecha = '2026-04-02';
 
 -- 8. Productos ordenados de mayor a menor precio
 
+SELECT * 
+FROM productos 
+ORDER BY precio DESC;
 
 -- 9. Clientes ordenados por nombre
 
+SELECT * 
+FROM clientes 
+ORDER BY nombre ASC;
 
 -- 10. Detalles de venta con cantidad >= 2
 
+SELECT *
+FROM detalle_venta
+WHERE cantidad >= 2;
 
 -- 11. Total de clientes
 
+SELECT COUNT(*) AS total_clientes
+FROM clientes;
 
 -- 12. Total de productos
 
